@@ -1,0 +1,94 @@
+.menuString1 {
+    background-color: #d09972;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 0;
+    position: relative;
+}
+
+.separator {
+    width: 0.5px;
+    background-color: #ffffff; 
+    height: 20px; 
+    margin: 0 20px; 
+  }
+
+.buttonMenuString1{
+    flex: 1;
+    text-align: center;
+    border: 0px;
+    background-color: #d09972;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.buttonMenuString1:hover{
+    text-decoration: underline;
+
+}
+
+.menuLink{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.menuString2 {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    margin: 20px;
+}
+
+.searchString {
+    background-color: #ffffff;
+    color: #000000;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #d09972;
+    font-size: 20px;
+}
+  
+.imgHouse{
+    width: 23px;
+    height: 20px;
+}
+
+.cityDropdownBox {
+    position: relative;
+    display: inline-block;
+}
+
+#cityButton {
+    padding: 10px;
+    font-size: 16px;
+    border: 0px;
+    background-color: #ffffff;
+}
+
+.cityDropdownBox-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.cityDropdownBox-content a {
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.cityDropdownBox-content a:hover {
+    background-color: #ffffff;
+}
+
+.cityDropdownBox:hover .cityDropdownBox-content {
+    display: block;
+}

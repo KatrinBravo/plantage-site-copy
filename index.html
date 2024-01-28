@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PLANTAGE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./icons/768px-Eo_circle_pink_letter-p.svg.png">
+</head>
+
+<body>
+    <header>
+        <div class="menuString1">
+            <div class="buttonMenuString1">
+                <button class="buttonMenuString1"><a class="menuLink" href="#" target="_blank">Medlem: 30% på gröna
+                        våxter</a></button>
+            </div>
+            <div class="separator"></div>
+            <div class="buttonMenuString1">
+                <button class="buttonMenuString1"><a class="menuLink" href="#" target="_blank">Medlem: 40% på
+                        krukor</a></button>
+            </div>
+        </div>
+        <nav class="menuString2">
+            <div>
+                <a class="menuLink" href="#" target="_blank">
+                    <img src="https://www.plantagen.se/on/demandware.static/Sites-PlantagenSE-Site/-/default/dw724a0f42/images/plantagen.svg"
+                        alt="Logo" href="#"></a>
+            </div>
+            <div class="search">
+                <input type="text" name="text" class="searchString" placeholder="Testa att söka ...">
+            </div>
+            <div class="city">
+                <img src="./icons/house.png" alt="house" class="imgHouse">
+                <div class="cityDropdownBox">
+                    <button onclick="dropdownCityContent()" id="cityButton">Stockholm</button>
+                    <div id="cityDropdown" class="cityDropdownBox-content">
+                        <a href="#" onclick="selectCity('Barcarby')">Barcarby</a>
+                        <a href="#" onclick="selectCity('Bromma')">Bromma</a>
+                        <a href="#" onclick="selectCity('Enebyberg')">Enebyberg</a>
+                        <a href="#" onclick="selectCity('Frescati')">Frescati</a>
+                        <a href="#" onclick="selectCity('Hässelby')">Hässelby</a>
+                        <a href="#" onclick="selectCity('Kungens Kurva')">Kungens Kurva</a>
+                        <a href="#" onclick="selectCity('Länna')">Länna</a>
+                        <a href="#" onclick="selectCity('Märsta')">Märsta</a>
+                        <a href="#" onclick="selectCity('Sickla')">Sickla</a>
+                        <a href="#" onclick="selectCity('Sköndal')">Sköndal</a>
+                        <a href="#" onclick="selectCity('Värmdö')">Värmdö</a>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <script src="" async defer>
+        // Определение функции для выпадающего списка
+        function dropdownCityContent() {
+            var dropdown = document.getElementById("cityDropdown");
+            dropdown.style.display = (dropdown.style.display === "block"); "none"; "block";
+        }
+
+        // Определение функции для выбора города и обновления текста кнопки
+        function selectCity(city) {
+            document.getElementById("cityButton").innerText = city;
+            dropdownCityContent(); // Закрываем выпадающий список после выбора
+        }
+
+    </script>
+</body>
+
+</html>
