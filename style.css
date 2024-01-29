@@ -7,12 +7,19 @@
     position: relative;
 }
 
-.separator {
+.horisontalSeparator {
     width: 0.5px;
     background-color: #ffffff; 
     height: 20px; 
     margin: 0 20px; 
   }
+
+  .vertical-separator {
+    border-left: 1px solid #d09972; 
+    height: 30px; 
+    margin: 0 10px;
+  }
+  
 
 .buttonMenuString1{
     flex: 1;
@@ -50,16 +57,25 @@
     border: none;
     border-bottom: 1px solid #d09972;
     font-size: 20px;
+    width: 470px;
+    margin-right: 35px;
+    margin-left: 20px;
 }
   
-.imgHouse{
+.menuImg{
     width: 23px;
     height: 20px;
+    margin-top: 7px;
+}
+
+.city{
+    display: flex;
 }
 
 .cityDropdownBox {
     position: relative;
     display: inline-block;
+    margin-right: 15px;
 }
 
 #cityButton {
@@ -67,6 +83,7 @@
     font-size: 16px;
     border: 0px;
     background-color: #ffffff;
+    padding-bottom: 5px;
 }
 
 .cityDropdownBox-content {
@@ -92,3 +109,45 @@
 .cityDropdownBox:hover .cityDropdownBox-content {
     display: block;
 }
+
+.posnumButton {
+    padding: 10px;
+    font-size: 16px;
+    border: 0px;
+    background-color: #ffffff;
+    
+}
+
+.openWin {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.openWin-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #8f8f8f;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.txtOpenWin {
+    text-align: center;
+}
+

@@ -18,7 +18,7 @@
                 <button class="buttonMenuString1"><a class="menuLink" href="#" target="_blank">Medlem: 30% på gröna
                         våxter</a></button>
             </div>
-            <div class="separator"></div>
+            <div class="horisontalSeparator"></div>
             <div class="buttonMenuString1">
                 <button class="buttonMenuString1"><a class="menuLink" href="#" target="_blank">Medlem: 40% på
                         krukor</a></button>
@@ -32,9 +32,10 @@
             </div>
             <div class="search">
                 <input type="text" name="text" class="searchString" placeholder="Testa att söka ...">
+                <!--add drop down list of popular queries-->
             </div>
             <div class="city">
-                <img src="./icons/house.png" alt="house" class="imgHouse">
+                <img src="./icons/house.png" alt="house" class="menuImg">
                 <div class="cityDropdownBox">
                     <button onclick="dropdownCityContent()" id="cityButton">Stockholm</button>
                     <div id="cityDropdown" class="cityDropdownBox-content">
@@ -51,25 +52,45 @@
                         <a href="#" onclick="selectCity('Värmdö')">Värmdö</a>
                     </div>
                 </div>
-            </div>
-
+                <div class="city">
+                    <img src="./icons/car.png" alt="car" class="menuImg">
+                    <div class="">
+                        <button id="postNum" class="posnumButton">Postnummer</button>
+                        <div id="openWin" class="openWin">
+                            <div class="openWin-content">
+                                <span class="close">&times;</span>
+                                <p class="txtOpenWin">Ange postnummer för att se leveransalternativ.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical-separator"></div>
+                <div class="city">
+                    <img src="./icons/person.png" alt="person" class="menuImg">
+                    <div class="">
+                        <button id="postNum" class="posnumButton">Mina sidor</button>
+                        <!-- modal form for log in-->
+                    </div>
+                </div>
+                <div class="city">
+                    <img src="./icons/heart.png" alt="heart" class="menuImg">
+                    <div class="">
+                        <a href="#" target="_blank">
+                            <button id="postNum" class="posnumButton"></button>
+                        </a>
+                        <!-- modal form for log in-->
+                    </div>
+                </div>
+                <div class="city">
+                    <img src="./icons/basket.png" alt="basket" class="menuImg">
+                    <div class="">
+                        <!-- window from left side for items which you want to by-->
+                    </div>
+                </div>
         </nav>
     </header>
 
-    <script src="" async defer>
-        // Определение функции для выпадающего списка
-        function dropdownCityContent() {
-            var dropdown = document.getElementById("cityDropdown");
-            dropdown.style.display = (dropdown.style.display === "block"); "none"; "block";
-        }
-
-        // Определение функции для выбора города и обновления текста кнопки
-        function selectCity(city) {
-            document.getElementById("cityButton").innerText = city;
-            dropdownCityContent(); // Закрываем выпадающий список после выбора
-        }
-
-    </script>
+    <script src="./skript.js" async defer></script>
 </body>
 
 </html>
