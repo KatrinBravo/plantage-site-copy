@@ -10,26 +10,26 @@ function selectCity(city) {
     dropdownCityContent(); // Закрываем выпадающий список после выбора
 }
 
-// Get the modal
+// Создание модального окна
 var modal = document.getElementById("openWin");
 
-// Get the button that opens the modal
+// Кнопка которая открывает модальное окно
 var btn = document.getElementById("postNum");
 
-// Get the <span> element that closes the modal
+// Добавление объекта для закрытия модального окна
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// Фуекцмя открытия модального окна через oneclick 
 btn.onclick = function () {
     modal.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
+// Опция закрытия через кнопку "х"
 span.onclick = function () {
     modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
+// Опция закрытия при клике вне модального окна
 window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
