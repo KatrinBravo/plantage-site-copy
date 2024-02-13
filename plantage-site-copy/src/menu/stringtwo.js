@@ -11,7 +11,7 @@ export default function StringTwo() {
                 <input type="text" name="text" className="searchString" placeholder="Testa att söka ..." />
             </div>
             <div className="city">
-                <img src="./icons/house.png" alt="house" className="menuImg" />
+                <img src={require("../img/house.png")} alt="house" className="menuImg" />
                 <div className="cityDropdownBox">
                     <button onclick="dropdownCityContent()" id="cityButton">Stockholm</button>
                     <div id="cityDropdown" className="cityDropdownBox-content">
@@ -29,7 +29,7 @@ export default function StringTwo() {
                     </div>
                 </div>
                 <div className="city">
-                    <img src="./icons/car.png" alt="car" className="menuImg" />
+                    <img src={require("../img/car.png")} alt="car" className="menuImg" />
                     <div className="">
                         <button id="postNum" className="posnumButton">Postnummer</button>
                         <div id="openWin" className="openWin">
@@ -42,14 +42,14 @@ export default function StringTwo() {
                 </div>
                 <div className="vertical-separator"></div>
                 <div className="city">
-                    <img src="./icons/person.png" alt="person" className="menuImg" />
+                    <img src={require("../img/person.png")} alt="person" className="menuImg" />
                     <div className="">
                         <button id="postNum" className="posnumButton">Mina sidor</button>
 
                     </div>
                 </div>
                 <div className="city">
-                    <img src="./icons/heart.png" alt="heart" className="menuImg" />
+                    <img src={require("../img/heart.png")} alt="heart" className="menuImg" />
                     <div className="">
                         <a href="#" target="_blank">
                             <button id="postNum" className="posnumButton"></button>
@@ -58,7 +58,7 @@ export default function StringTwo() {
                     </div>
                 </div>
                 <div className="city">
-                    <img src="./icons/basket.png" alt="basket" className="menuImg" />
+                    <img src={require("../img/basket.png")} alt="basket" className="menuImg" />
                     <div className="">
 
                     </div>
