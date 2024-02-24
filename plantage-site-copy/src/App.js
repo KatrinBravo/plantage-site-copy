@@ -2,6 +2,7 @@ import Menu from "./menu/menuStrings.js";
 import Actions from "./actions list one/actionStrings.js";
 import ActionBlock from "./action list two/ActionBlock.js";
 import TipsBlock from "./tips/tipsBlock.js";
+import Information from "./Information/InformationBox.js";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Actions />
       <ActionBlock />
       <TipsBlock />
+      <Information />
     </>
   );
 }

@@ -294,3 +294,59 @@ position: relative;
   align-items: center; 
   text-decoration: none;
 }
+
+.personTipsText{
+  display: flex;
+}
+
+.personTipsButton{
+  width: 250px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: rgb(33, 70, 38);
+  color: white;
+  border: none;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.personTipsButton:hover{
+  background-color: rgb(153, 23, 23);
+}
+
+.content{
+  text-align: center;
+  width: 100%;
+}
+
+.section{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.littleSection{
+  flex: 1 0 25%;
+  width: 290px;
+  height: 410px;
+  background-color: #ffc69e;
+}
+
+.imgNews{
+  width: 290px;
+  height: 230px;
+}
+
+.linkNews{
+  text-decoration: none;
+  color: black;
+  margin-left: 5px;
+}
+
+.bottom-left-text {
+  position: absolute;
+  left: 20px;
+  color: rgb(122, 121, 121);
+  text-align: left;
+}
