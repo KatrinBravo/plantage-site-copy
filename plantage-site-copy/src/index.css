@@ -321,16 +321,17 @@ position: relative;
 }
 
 .section{
-  display: flex;
-  flex-wrap: wrap;
-  margin: 15px;
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .littleSection{
-  flex: 1 0 25%;
   width: 290px;
-  height: 410px;
-  background-color: #ffc69e;
+  height: 440px;
+  background-color: #ffd2b3;
+  position: relative;
 }
 
 .imgNews{
@@ -344,9 +345,24 @@ position: relative;
   margin-left: 5px;
 }
 
+.linkNews:hover{
+text-decoration: underline;
+}
+
+.textNews{
+  color: black;
+  margin-left: 5px;
+}
+
 .bottom-left-text {
   position: absolute;
-  left: 20px;
+  bottom: 0px;
+  left: 10px;
   color: rgb(122, 121, 121);
   text-align: left;
+}
+
+#tipsButton {
+  margin-top: 60px;
+  margin-bottom: 200px;
 }
