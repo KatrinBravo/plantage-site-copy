@@ -5,7 +5,8 @@ export default function StringTwo() {
             <div>
                 <a className="menuLink" href="#" target="_blank">
                     <img src="https://www.plantagen.se/on/demandware.static/Sites-PlantagenSE-Site/-/default/dw724a0f42/images/plantagen.svg"
-                        alt="Logo" href="#" /></a>
+                        alt="Logo" href="#" />
+                </a>
             </div>
             <div className="search">
                 <input type="text" name="text" className="searchString" placeholder="Testa att söka ..." />

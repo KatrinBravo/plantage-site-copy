@@ -1,16 +1,16 @@
 export default function ActionString() {
     return (
-        <ul class="list">
+        <ul className="list">
             <a href="" target="_blank">
-                <li>Stort sortiment av växter och tillbehör</li>
+                <li className="li">Stort sortiment av växter och tillbehör</li>
             </a>
-            <div class="vertical-separator"></div>
+            <div className="vertical-separator"></div>
             <a href="" target="_blank">
-                <li>Växtköp med garanti</li>
+                <li className="li">Växtköp med garanti</li>
             </a>
-            <div class="vertical-separator"></div>
+            <div className="vertical-separator"></div>
             <a href="" target="_blank">
-                <li>Beställ & hämta inom 24 timmar</li>
+                <li className="li">Beställ & hämta inom 24 timmar</li>
             </a>
         </ul>
     )
