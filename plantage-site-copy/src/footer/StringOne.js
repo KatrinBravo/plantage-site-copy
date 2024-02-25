@@ -35,9 +35,72 @@ export default function StringOne() {
                         <br />
                         <p><b>Bli medlem i vår kundklubb</b></p>
                         <p>Du får 2% bonus på alla dina köp och exklusiva förmåner. Helt gratis såklart!</p>
+                        <br />
+                        <button className="buttonLogo"><b>Bli medlem / Logga In</b></button>
+                        <br /><br /><br />
                     </div>
                 </div>
             </div>
+            <div className="section">
+                <div className="footerSection">
+                    <hr className="horisontal-line" />
+                    <ul className="footerListUL"><b>Om Plantagen</b></ul>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Om Plantagen</a></li>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Om produkterna</a></li>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Hållbarhet</a></li>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Lediga jobb</a></li>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Pressrum</a></li>
+                </div>
+            </div>
+            <div className="section">
+                <div className="footerSection">
+                    <hr className="horisontal-line" />
+                    <ul className="footerListUL"><b>Kundservice</b></ul>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Kontakta oss</a></li>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Handla online</a></li>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Frågor & svar</a></li>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Kundklubb</a></li>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Presentkortssaldo</a></li>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Önskelista</a></li>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Kontrollera din order</a></li>
+                </div>
+            </div>
+            <div className="section">
+                <div className="footerSection">
+                    <hr className="horisontal-line" />
+                    <ul className="footerListUL"><b>Butiker & öppettider</b></ul>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Butiker & Öppettider</a></li>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Om webbplatsen</a></li>
+                </div>
+            </div>
+            <div className="section">
+                <div className="footerSection">
+                    <hr className="horisontal-line" />
+                    <ul className="footerListUL"><b>Garantier & villkor</b></ul>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Garantier</a></li>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Köpvillkor</a></li>
+                </div>
+            </div>
+            <div className="section">
+                <div className="footerSection">
+                    <hr className="horisontal-line" />
+                    <ul className="footerListUL"><b>Företag</b></ul>
+                    <li className="footerList"><a className="footerLink" href="#" target="_blank">Plantagen Företag</a></li>
+                </div>
+            </div>
+            <hr className="horisontal-line" />
+            <div className="footerColor">
+                <div className="personTipsText">
+                    <p className="txtFooter">På Plantagen finns allt som behövs för ett växande liv. Hos oss kan du hitta
+                        <a href="#" target="_blank">inneväxter</a>,
+                        <a href="#" target="_blank">uteväxter</a>,
+                        <a href="#" target="_blank">möbler</a>,
+                        <a href="#" target="_blank">redskap</a> och
+                        <a href="#" target="_blank"> inspiration till nästa projekt</a>. Med 120 butiker runt om i Sverige, Norge och Finland och en e-handel som alltid har öppet hjälper vi dig att komma närmare naturens positiva kraft. Välkommen till Nordens härligaste växthus.
+                    </p>
+                </div>
+            </div>
+            <hr className="horisontal-line" />
         </div>
     )
 }

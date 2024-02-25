@@ -12,6 +12,5 @@ export default function NewsSections(props) {
                 </div>
             </div>
         </div>
-
     );
 }
