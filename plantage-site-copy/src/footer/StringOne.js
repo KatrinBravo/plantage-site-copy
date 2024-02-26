@@ -92,15 +92,33 @@ export default function StringOne() {
             <div className="footerColor">
                 <div className="personTipsText">
                     <p className="txtFooter">På Plantagen finns allt som behövs för ett växande liv. Hos oss kan du hitta
-                        <a href="#" target="_blank">inneväxter</a>,
-                        <a href="#" target="_blank">uteväxter</a>,
-                        <a href="#" target="_blank">möbler</a>,
-                        <a href="#" target="_blank">redskap</a> och
+                        <a href="#" target="_blank"> inneväxter</a>,
+                        <a href="#" target="_blank"> uteväxter</a>,
+                        <a href="#" target="_blank"> möbler</a>,
+                        <a href="#" target="_blank"> redskap</a> och
                         <a href="#" target="_blank"> inspiration till nästa projekt</a>. Med 120 butiker runt om i Sverige, Norge och Finland och en e-handel som alltid har öppet hjälper vi dig att komma närmare naturens positiva kraft. Välkommen till Nordens härligaste växthus.
                     </p>
                 </div>
             </div>
             <hr className="horisontal-line" />
+            <div className="InstTextBox">
+                <div className="InstText">
+                    <div className="FoterMedia">
+                        <img src={require("../img/Klarna.png")} alt="Klarna" className="FooterImgPay" />
+                        <img src={require("../img/Visa.png")} alt="Visa" className="FooterImgPay" />
+                        <img src={require("../img/Mastercard.jpg")} alt="MasterCard" className="FooterImgPay" />
+                        <img src={require("../img/AmericanExpress.png")} alt="AmericanExpres" className="FooterImgPay" />
+                        <img src={require("../img/postnord.png")} alt="PostNord" className="FooterImgPay" />
+                        <img src={require("../img/swish.png")} alt="Swish" className="FooterImgPay" />
+                    </div>
+                    <hr className="horisontal-line" />
+                    <div className="FoterMedia">
+                        <span><a className="footerList">Cookie-inställningar</a></span>
+                        <span><a className="footerList">Integritetspolicy</a></span>
+                        <span><a className="footerList">© Plantagen AB 2024</a></span>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
